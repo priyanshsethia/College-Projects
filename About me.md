@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @priyanshsethia
+- 👀 I’m interested in Software Development
+- 🌱 I’m currently learning Java.
+- 💞️ I’m looking to collaborate on nothing, cause right now I'm learning.
+- 📫 Instagram - @sethia_priyansh
