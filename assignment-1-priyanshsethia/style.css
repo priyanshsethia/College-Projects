@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Body */
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    background-color: #ce0505;
+    padding: 15px 101px 13px 102px;
+}
+
+.Logo {
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 26px;
+}
+
+.Logo span {
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    right: 50px;
+
+}
+.Login {
+    width: 43px;
+    height: 23px;
+    margin: 12px 26px 11px 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Create-an-account-box {
+    margin: 0 0 0 26px;
+    padding: 12px 14px 11px 15px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+    cursor: pointer;
+}
+
+.Create-an-account {
+    width: 152px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.Create-an-account-box:hover {
+    background-color: #e20f0f;
+}
+
+/* Page Heading */
+.Heading {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+/* Container */
+.Container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Filter & Sorting */
+.FilterSort {
+    margin: 27px;
+    padding: 25px 45px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.Filters {
+    margin: 0 154px 10px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Select-Location{
+    display: block;
+    margin: 12px 0px 0px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+#Location {
+    width: 100%;
+    height: 40px;
+    margin: 11px 0 11px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #474c56;
+}
+
+.Cuisine, .Cost-of-Two, .Sort {
+    display: block;
+    margin: 12px 0px 12px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+form input {
+    width: 18px;
+    height: 18px;
+    margin: 7.5px;
+    padding: 5.1px 4.4px 5.4px 3.1px;
+    background-color: #3a5075;
+}
+
+form label {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+/* Food List Columns */
+.Food-List-Item-1, .Food-List-Item-2 {
+    margin: 27px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.Block1, .Block2{
+    display: flex;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    margin: 0 41px 31px 0;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.The-Big-Chill-Cakery, .The-Bake-Shop {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Fort {
+    display: block;
+    width: 39px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Address {
+    width: 365px;
+    height: 23px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+hr {
+    width: 100%;
+    height: 0px;
+    border: solid 1px #dedfe5;
+}
+
+.CUISINES-COST-FOR-TWO {
+    margin:20px 52px 5px 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+.Bakery-700 {
+    margin:20px 52px 5px 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Page-List {
+    margin-bottom: 52px;
+    padding-left: 25%;
+}
+
+button {
+    width: 36px;
+    height: 36px;
+    margin: 0 13px 0 0;
+    padding: 10.2px 13.5px 9.5px 14.3px;
+    opacity: 0.4;
+    border-radius: 7px;
+    border: solid 1px #8894af;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#Page1 {
+    background-color: #8c96ab;
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .Heading {
+        margin: 14px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .FilterSort {
+        margin: 15px;
+        padding: 12px 22px;
+    }
+    
+    .Food-List-Item-1, .Food-List-Item-2 {
+        margin: 15px;
+        padding: 22px 22px;
+    }
+
+    .Food-List-Item-2 {
+        margin-top: 20px;
+    }
+
+    img {
+        width: 90px;
+        height: 90px;
+        margin: 0px 30px 20px 0px;
+    }
+
+    .The-Big-Chill-Cakery, .The-Bake-Shop {
+        font-size: 23px;
+    }
+
+    .Fort {
+        font-size: 14px;
+    }
+
+    .Address {
+        font-size: 12px;
+    }
+
+    .CUISINES-COST-FOR-TWO, .Bakery-700 {
+        font-size: 14px;
+    }
+
+    .Page-List {
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+    
+    button {
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+
+    .Heading {
+        display: block;
+        text-align: center;
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+
+}
+

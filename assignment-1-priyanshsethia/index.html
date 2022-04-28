@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search | Zomato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+
+        <!-- Logo -->
+        <div class="Logo">
+            <span>e!</span>
+        </div>
+
+        <!-- Other Links -->
+        <nav>
+            <span class="Login">Login</span>
+            <div class="Create-an-account-box">
+                <span class="Create-an-account">Create an account</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Heading -->
+    <span class="Heading">Breakfast Places in Mumbai</span>
+
+    <!-- Container -->
+    <div class="Container">
+        
+        <!-- Filter & Sorting -->
+        <div class="FilterSort">
+            <form>
+
+                <!-- Filter -->
+                <span class="Filters">Filters</span>
+
+                <!-- Select Location -->
+                <span class="Select-Location">Select Location</span>
+                <select name="Location" id="Location">
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+
+                <!-- Cuisine -->
+                <span class="Cuisine">Cuisine</span>
+
+                <input type="checkbox" id="North-Indian" name="North-Indian">
+                <label for="Cuisine1">North Indian</label><br>
+                <input type="checkbox" id="South-Indian" name="South-Indian" checked>
+                <label for="Cuisine2">South Indian</label><br>
+                <input type="checkbox" id="Chinese" name="Chinese" checked>
+                <label for="Cuisine3">Chinese</label><br>
+                <input type="checkbox" id="Fast-Food" name="Fast-Food">
+                <label for="Cuisine4">Fast Food</label><br>
+                <input type="checkbox" id="Street-Food" name="Street-Food">
+                <label for="Cuisine5">Street Food</label><br>
+                
+                <!-- Cost of Two -->
+                <span class="Cost-of-Two">Cost of Two</span>
+
+                <input type="radio" id="Less-than-500" name="Cost-of-Two" value="500">
+                <label for="Cost1">Less than &#8377 500</label><br>
+                <input type="radio" id="500-1000" name="Cost-of-Two" value="1000">
+                <label for="Cost2">&#8377 500 to &#8377 1000</label><br>
+                <input type="radio" id="1000-1500" name="Cost-of-Two" value="1500">
+                <label for="Cost3">&#8377 1000 to &#8377 1500</label><br>
+                <input type="radio" id="1500-2000" name="Cost-of-Two" value="2000">
+                <label for="Cost4">&#8377 1500 to &#8377 2000</label><br>
+                <input type="radio" id="More-than-2000" name="Cost-of-Two" value="2000+">
+                <label for="Cost5">&#8377 2000+</label><br>
+
+                <!-- Sort -->
+                <span class="Sort">Sort</span>
+
+                <input type="radio" id="Low-to-High" name="Sort" value="Low-to-High">
+                <label for="Sort1">Price low to high</label><br>
+                <input type="radio" id="High-to-Low" name="Sort" value="High-to-Low">
+                <label for="Sort2">Price high to low</label><br>
+            </form>
+        </div>
+        <!-- Food List -->
+        <div class="Food-List">
+
+            <!-- Food List 1 -->
+            <div class="Food-List-Item-1">
+
+                <!-- Block 1 - Details -->
+                <div class="Block1">
+                    <img src="Images/shutterstock_1154073754.jpg">
+                    <div class="text">
+                        <span class="The-Big-Chill-Cakery">The Big Chill Cakery</span>
+                        <span class="Fort">FORT</span>
+                        <span class="Address">Shop 1, Plot D, Samruddhi Complex,
+                            Chincholi …</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Block 2 - Pricing -->
+                <div class="Block2">
+                    <span class="CUISINES-COST-FOR-TWO">CUISINES:<br>COST FOR TWO:</span>
+                    <span class="Bakery-700">Bakery<br>₹700</span>
+                </div>
+            </div>
+
+            <!-- Food List 2 -->
+            <div class="Food-List-Item-2">
+
+                <!-- Block 1 - Details -->
+                <div class="Block1">
+                    <img src="Images/shutterstock_1154073754.jpg">
+                    <div class="text">
+                        <span class="The-Bake-Shop">The Bake Shop</span>
+                        <span class="Fort">FORT</span>
+                        <span class="Address">Shop 1, Plot D, Samruddhi Complex,
+                            Chincholi …</span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Block 2 - Pricing -->
+                <div class="Block2">
+                    <span class="CUISINES-COST-FOR-TWO">CUISINES:<br>COST FOR TWO:</span>
+                    <span class="Bakery-700">Bakery<br>₹700</span>
+                </div>
+            </div>
+
+            <!-- Page Numbers -->
+            <div class="Page-List">
+                <button type="button" id="Back" disabled>&lt;</button>
+                <button type="button" id="Page1">1</button >
+                <button type="button" id="Page2">2</button>
+                <button type="button" id="Page3">3</button>
+                <button type="button" id="Page4">4</button>
+                <button type="button" id="Page5">5</button>
+                <button type="button" id="Next">&gt;</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

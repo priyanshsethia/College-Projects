@@ -1,0 +1,147 @@
+/* Font : Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* Heading Container */
+.header{
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #e708084b), url(images/shutterstock_1/shutterstock_348320018.jpg);
+    height: 490px;
+    object-fit: contain;
+}
+
+/* Navigation Bar Components */
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    float: right;
+    
+}
+
+.Login {
+    margin: 12px 26px 11px 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Rectangle-17 {
+    padding: 12px 14px 11px 15px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+}
+
+.Create-an-account {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+/* Logo */
+.container-logo-input {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,35%);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+.logo span {
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 62px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    cursor: pointer;
+}
+
+/* Tagline */
+.tagline {
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #fff;
+}
+
+/* Meal Container */
+.quick-searches {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.description{    
+    padding-top: 3px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+/* Meals */
+.image img {
+    width: 140px;
+    height: 140px;
+    margin: 0 22px 0 0;
+    object-fit: cover;
+}
+
+.food-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    display: block;
+}
+
+.food-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+
+.about {
+    padding: 15px 5px;
+}
